@@ -53,4 +53,15 @@ ipch/
 *.opendb
 *.opensdf
 *.obj
+*.exe
+*.pdb
+*.tlog
+*.log
+*.idb
+*.db
+*.ilk
+*.lastbuildstate
+*.suo
+*.user
+*.lib
 

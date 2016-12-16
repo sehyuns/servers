@@ -142,6 +142,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\bsae_packet.h" />
     <ClInclude Include="include\session.h" />
     <ClInclude Include="include\session_manager.h" />
     <ClInclude Include="include\shared_defs.h" />
