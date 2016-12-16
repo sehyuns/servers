@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{41feb5b1-cfc7-44b5-b2fc-f897a2a89711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{b7f8e131-9ccc-419a-9525-b7f9fae47d8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\session.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\session_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared_defs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared_error_def.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared_server.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\session.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\session_manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shared_server.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
