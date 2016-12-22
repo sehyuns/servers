@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{98b13d8e-2908-4d51-aef2-3b9c0f241fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{6d8e10f9-0fbe-4796-bf1f-8299633fefd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dll_main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\connector.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\connector_manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\connector_defs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\connector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\connector_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
