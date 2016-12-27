@@ -30,6 +30,12 @@
     <ClInclude Include="include\bsae_packet.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\base_acceptor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base_connector.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\session.cpp">
@@ -39,6 +45,12 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="source\shared_server.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\base_acceptor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\base_connector.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

@@ -34,7 +34,7 @@ namespace lib
 
 		INT32		create_new_session(const SOCKET& socket_in);
 
-		INT32		pop_income(INT32& key_out, UINT32& bytes_out, LPOVERLAPPED overlapped_out);
+		INT32		pop_income(INT32& key_out, UINT32& bytes_out, LPOVERLAPPED* overlapped_out);
 
 		INT32		push_forcely(INT32 key_in, OVERLAPPED* overlapped_in);
 

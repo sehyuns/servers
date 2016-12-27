@@ -147,12 +147,14 @@
     <ClInclude Include="include\singleton.h" />
     <ClInclude Include="include\socket.h" />
     <ClInclude Include="include\socket_async.h" />
+    <ClInclude Include="include\thread.h" />
     <ClInclude Include="include\winsock_env.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\iocp.cpp" />
     <ClCompile Include="source\socket.cpp" />
     <ClCompile Include="source\socket_async.cpp" />
+    <ClCompile Include="source\thread.cpp" />
     <ClCompile Include="source\winsock_env.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

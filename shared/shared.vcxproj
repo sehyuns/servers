@@ -144,6 +144,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\base_acceptor.h" />
+    <ClInclude Include="include\base_connector.h" />
     <ClInclude Include="include\bsae_packet.h" />
     <ClInclude Include="include\session.h" />
     <ClInclude Include="include\session_manager.h" />
@@ -152,6 +154,8 @@
     <ClInclude Include="include\shared_server.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\base_acceptor.cpp" />
+    <ClCompile Include="source\base_connector.cpp" />
     <ClCompile Include="source\session.cpp" />
     <ClCompile Include="source\session_manager.cpp" />
     <ClCompile Include="source\shared_server.cpp" />

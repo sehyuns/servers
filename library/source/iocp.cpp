@@ -67,9 +67,9 @@ namespace lib
 	////////////////////////////////////////////////////////////////////////////////
 	//
 	////////////////////////////////////////////////////////////////////////////////
-	INT32 Iocp::pop_income(INT32& key_out, UINT32& bytes_out, LPOVERLAPPED overlapped_out)
+	INT32 Iocp::pop_income(INT32& key_out, UINT32& bytes_out, LPOVERLAPPED* overlapped_out)
 	{
-		if (FALSE == GetQueuedCompletionStatus(_handle, (LPDWORD)&bytes_out, (PULONG_PTR)&key_out, &overlapped_out, INFINITE))
+		if (FALSE == GetQueuedCompletionStatus(_handle, (LPDWORD)&bytes_out, (PULONG_PTR)&key_out, &*overlapped_out, INFINITE))
 		{
 			_last_error = WSAGetLastError();
 			return ERR_IOCP_QUEUE;

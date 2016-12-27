@@ -39,6 +39,9 @@
     <ClInclude Include="include\singleton.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\thread.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\iocp.cpp">
@@ -51,6 +54,9 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="source\winsock_env.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\thread.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
